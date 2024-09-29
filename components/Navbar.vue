@@ -1,7 +1,7 @@
 <template>
     <div class="drawer-nav">
         <a-typography-title style="font-weight: bold; margin: 0;" :level="4">
-            <img src="/img/python.png" alt="Python Logo" style="width: 40px; height: 40px; margin-right: 8px; vertical-align: middle;" />
+            <img src="/img/Vue.png" alt="Logo" style="width: 40px; height: 40px; vertical-align: middle;" />
             <span style="color:#09C09B">
                 Khang Nguyen
             </span>
