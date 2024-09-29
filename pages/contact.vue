@@ -26,7 +26,7 @@
             
             <a :href="content.social_links.facebook" target="_blank">
                 <a-button type="text">
-                    <facebook-outlined :style="{ color: '#09C09B' }"/> Nguyễn Phúc Khang
+                    <facebook-outlined :style="{ color: '#1877F2' }"/> Nguyễn Phúc Khang
                 </a-button>
             </a>
 
@@ -34,7 +34,7 @@
 
             <a :href="content.social_links.linkedin" target="_blank">
                 <a-button type="text">
-                    <linkedin-outlined :style="{ color: '#09C09B' }"/> Nguyễn Phúc Khang
+                    <linkedin-outlined :style="{ color: '#0077B5' }"/> Nguyễn Phúc Khang
                 </a-button>
             </a>
         </div>
