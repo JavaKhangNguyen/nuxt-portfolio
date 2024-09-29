@@ -80,12 +80,12 @@
             <a-image-preview-group>
                 <a-carousel arrows>
                     <template #prevArrow>
-                        <div class="custom-slick-arrow" style="left: 10px; z-index: 1">
+                        <div class="custom-slick-arrow" style="left: 10px; z-index: 1; background-color: white;">
                             <left-circle-outlined :style="{ color: '#09C09B' }"/>
                         </div>
                     </template>
                     <template #nextArrow>
-                        <div class="custom-slick-arrow" style="right: 10px">
+                        <div class="custom-slick-arrow" style="right: 10px; background-color: white;">
                             <right-circle-outlined :style="{ color: '#09C09B' }"/>
                         </div>
                     </template>
@@ -152,7 +152,7 @@ useHead({
 
 .social-links a button span {
     font-size: 20px;
-    color: gray;
+    color: white;
 }
 
 .second-section {
