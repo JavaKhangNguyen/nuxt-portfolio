@@ -2,7 +2,7 @@
     <a-col>
         <a-card :title="props.title">
             <template #extra>
-                <a :href="github" target="_blank"><github-outlined :style="{ color: '#24292E' }"/></a>
+                <a :href="github" target="_blank"><github-outlined :style="{ color: '#09C09B' }"/></a>
                 <a :href="link" target="_blank" style="margin-left: 10px;"><global-outlined :style="{ color: '#09C09B' }"/></a>
             </template>
 

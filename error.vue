@@ -2,7 +2,7 @@
     <NuxtLayout>
         <div class="content-vh" align="center">
             <div class="container">
-                <a-typography-title style="font-weight: bold; font-size: 128px; color: #09C09B; margin: 0;">
+                <a-typography-title style="font-weight: bold; font-size: 128px; color: #1677FF; margin: 0;">
                     404
                 </a-typography-title>
 
@@ -17,8 +17,7 @@
                 <br />
 
                 <NuxtLink to="/">
-                    <a-button type="primary" :style="{margin: '20px 0', width: '100%', 
-                        backgroundColor: '#09C09B', borderColor: '#09C09B'}">
+                    <a-button type="primary" style="margin: 20px 0; width: 100%;">
                         Go Back Home
                     </a-button>
                 </NuxtLink>

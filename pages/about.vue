@@ -27,17 +27,17 @@
                 <div class="social-links">
                     <NuxtLink :to="content.social_links.facebook">
                         <a-button type="text">
-                            <facebook-outlined :style="{ color: '#1877F2' }"/>
+                            <facebook-outlined />
                         </a-button>
                     </NuxtLink>
                     <NuxtLink :to="content.social_links.linkedin">
                         <a-button type="text">
-                            <linkedin-outlined :style="{ color: '#0077B5' }"/>
+                            <linkedin-outlined />
                         </a-button>
                     </NuxtLink>
                     <NuxtLink :to="content.social_links.github">
                         <a-button type="text">
-                            <github-outlined :style="{ color: '#24292E' }"/>
+                            <github-outlined />
                         </a-button>
                     </NuxtLink>
                 </div>
