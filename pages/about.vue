@@ -9,15 +9,15 @@
                     {{ content.about_description }}
                 </a-typography-paragraph>
                 <a-typography-paragraph>
-                    <span an style="font-weight: bold;">Programming Languages</span> <br />
+                    <span an style="font-size: 16px; font-weight: bold;">Programming Languages</span> <br />
                     <a-tag style="margin-top: 5px;" v-for="skill in content.skills.proglang" color="#09C09B">{{ skill }}</a-tag>
                 </a-typography-paragraph>
                 <a-typography-paragraph>
-                    <span an style="font-weight: bold;">Libraries & Frameworks</span> <br />
+                    <span an style="font-size: 16px; font-weight: bold;">Libraries & Frameworks</span> <br />
                     <a-tag style="margin-top: 5px;" v-for="skill in content.skills.libfw" color="#09C09B">{{ skill }}</a-tag>
                 </a-typography-paragraph>
                 <a-typography-paragraph>
-                    <span an style="font-weight: bold;">Tools & Platforms</span> <br />
+                    <span an style="font-size: 16px; font-weight: bold;">Tools & Platforms</span> <br />
                     <a-tag style="margin-top: 5px;" v-for="skill in content.skills.toolplat" color="#09C09B">{{ skill }}</a-tag>
                 </a-typography-paragraph>
 
@@ -26,17 +26,17 @@
                 <!-- Social Links -->
                 <div class="social-links">
                     <NuxtLink :to="content.social_links.facebook">
-                        <a-button type="text">
+                        <a-button type="link">
                             <facebook-outlined :style="{ color: '#1877F2' }"/>
                         </a-button>
                     </NuxtLink>
                     <NuxtLink :to="content.social_links.linkedin">
-                        <a-button type="text">
+                        <a-button type="link">
                             <linkedin-outlined :style="{ color: '#0077B5' }"/>
                         </a-button>
                     </NuxtLink>
                     <NuxtLink :to="content.social_links.github">
-                        <a-button type="text">
+                        <a-button type="link">
                             <github-outlined :style="{ color: '#24292E' }"/>
                         </a-button>
                     </NuxtLink>
@@ -109,7 +109,6 @@ useHead({
 <style scoped>
 .ant-carousel :deep(.slick-slide) {
     text-align: center;
-    /* line-height: 160px; */
     background: #fff;
     overflow: hidden;
 }
@@ -118,7 +117,7 @@ useHead({
     width: 25px;
     height: 25px;
     font-size: 25px;
-    color: #1677FF;
+    color: #09C09B;
     background-color: rgba(31, 45, 61, 0.11);
     opacity: 0.3;
     z-index: 1;
@@ -166,7 +165,7 @@ useHead({
 
 .ant-card-head-title span {
     margin-right: 4px;
-    color: #1677FF;
+    color: #09C09B;
 }
 
 /* lg */

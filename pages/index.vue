@@ -6,8 +6,8 @@
         <a-typography-title :level="1" style="margin: 0 0 10px 0; font-weight: bold;">
           {{ content.name }}
         </a-typography-title>
-        <a-typography-title :level="1" style="margin: 0">
-          <span style="color: #09C09B;">{{ content.role}}</span>
+        <a-typography-title :level="2" style="margin: 0">
+          <span style="color: #09C09B; font-weight: bold;">{{ content.role}}</span>
         </a-typography-title>
         <a-typography-paragraph align="justify" style="font-size: 16px; color: #71717a;">
           {{ content.description }}
@@ -15,13 +15,20 @@
 
         <!-- Buttons -->
         <a-flex gap="8" style="margin-top: 25px;">
-          <a-button type="primary" :style="{ backgroundColor: '#09C09B', borderColor: '#09C09B' }"><a href="/CV_NPKhang.pdf" download="">Download CV</a></a-button>
-          <NuxtLink to="/projects" >
-            <a-button type="primary" :style="{ backgroundColor: '#09C09B', borderColor: '#09C09B' }">My Projects</a-button>
+          <a-button class="custom-button" type="default" :style="{ borderColor: '#09C09B' }">
+            <DownloadOutlined :style="{ color: '#09C09B' }"/>
+            <a href="/CV_NPKhang.pdf" download="" :style="{ color: '#09C09B' }"> Download CV</a>
+          </a-button>
+          <NuxtLink to="/projects">
+            <a-button class="custom-button" type="default" :style="{ borderColor: '#09C09B' }">
+              <span style="color:#09C09B">
+                <book-outlined /> My Projects
+              </span>
+            </a-button>
           </NuxtLink>
-          <NuxtLink to="/about">
-            <a-button type="text" :style="{ color: '#09C09B' }"> More About Me
-              <RightOutlined :style="{ color: '#09C09B' }"/>
+          <NuxtLink to="/about" class="more-about-me-link">
+            <a-button type="link" class="custom-link-button"> More About Me
+              <RightOutlined class="right-icon"/>
             </a-button>
           </NuxtLink>
         </a-flex>
@@ -38,7 +45,7 @@
 
 <script setup>
 import content from '~/static/content.json';
-import { RightOutlined } from '@ant-design/icons-vue';
+import { RightOutlined, DownloadOutlined } from '@ant-design/icons-vue';
 
 </script>
 
@@ -59,6 +66,34 @@ import { RightOutlined } from '@ant-design/icons-vue';
 
 .content-vh {
   padding-top: 85px !important;
+}
+
+.custom-button {
+  transition: all 0.3s ease;
+}
+
+.custom-button:hover {
+  background-color: #09C09B !important;
+}
+
+.custom-button:hover span,
+.custom-button:hover a {
+  color: #fff !important;
+}
+
+.custom-link-button {
+  color: black; /* Default color */
+  transition: color 0.3s ease; /* Smooth transition */
+}
+
+.right-icon {
+  color: black; /* Default color for icon */
+  transition: color 0.3s ease; /* Smooth transition */
+}
+
+.more-about-me-link:hover .custom-link-button,
+.more-about-me-link:hover .right-icon {
+  color: #09C09B; /* Hover color */
 }
 
 
