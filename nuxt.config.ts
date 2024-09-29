@@ -18,7 +18,7 @@ export default defineNuxtConfig({
     },
   },
   site: {
-    url: 'npkhang.id.vn',
+    url: '',
     name: content.meta.title,
     description: content.meta.description,
     defaultLocale: 'en'
