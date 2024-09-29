@@ -5,7 +5,7 @@
                 Nguyen Phuc Khang -
                 <span style="color: #09C09B;">{{ content.role}}</span>
             </a-typography-title>
-            <a-typography-paragraph>
+            <a-typography-paragraph style="font-size: 16px; color: #71717a;">
                 Please feel free to reach out to me at using your preferred ways included below: 
             </a-typography-paragraph>
             
