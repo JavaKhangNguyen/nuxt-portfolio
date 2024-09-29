@@ -5,7 +5,7 @@
         <section class="first-section">
             <!-- Paragraph Section -->
             <div>
-                <a-typography-paragraph align="justify">
+                <a-typography-paragraph align="justify" style="font-size: 16px; color: #71717a;">
                     {{ content.about_description }}
                 </a-typography-paragraph>
                 <a-typography-paragraph>
