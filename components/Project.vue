@@ -1,9 +1,11 @@
 <template>
     <a-col>
-        <a-card :title="props.title">
+        <a-card>
+            <template #title>
+                <a :href="props.link" target="_blank" class="title-link">{{ props.title }}</a>
+            </template>
             <template #extra>
-                <a :href="github" target="_blank"><github-outlined :style="{ color: '#24292E' }"/></a>
-                <a :href="link" target="_blank" style="margin-left: 10px;"><global-outlined :style="{ color: '#09C09B' }"/></a>
+                <a :href="props.github" target="_blank"><github-outlined :style="{ color: '#24292E' }"/></a>
             </template>
 
             <p style="margin-bottom: 16px;">
@@ -26,3 +28,15 @@ const props = defineProps<({
     github: string
 })>();
 </script>
+
+<style scoped>
+.title-link {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.title-link:hover {
+    color: #09C09B;
+}
+</style>
