@@ -24,16 +24,16 @@
             </a>
             <a-divider></a-divider>
             
-            <a :href="content.social_links.facebook" target="_blank">
-                <a-button type="text">
+            <a :href="content.social_links.facebook" target="_blank" class="social-link">
+                <a-button type="link" class="custom-link-button" :style="{ color: '#1877F2' }">
                     <facebook-outlined :style="{ color: '#1877F2' }"/> Nguyễn Phúc Khang
                 </a-button>
             </a>
 
             <br />
 
-            <a :href="content.social_links.linkedin" target="_blank">
-                <a-button type="text">
+            <a :href="content.social_links.linkedin" target="_blank" class="social-link">
+                <a-button type="link" class="custom-link-button" :style="{ color: '#0077B5' }">
                     <linkedin-outlined :style="{ color: '#0077B5' }"/> Nguyễn Phúc Khang
                 </a-button>
             </a>
@@ -64,6 +64,10 @@ useHead({
 
 .content {
     width: 100%;
+}
+
+.social-link:hover .custom-link-button {
+  color: #09C09B !important; 
 }
 
 /* lg */
