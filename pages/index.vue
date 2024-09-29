@@ -76,8 +76,7 @@ import { RightOutlined, DownloadOutlined } from '@ant-design/icons-vue';
   background-color: #09C09B !important;
 }
 
-.custom-button:hover span,
-.custom-button:hover a {
+.custom-button:hover span, .custom-button:hover a {
   color: #fff !important;
 }
 
@@ -91,8 +90,7 @@ import { RightOutlined, DownloadOutlined } from '@ant-design/icons-vue';
   transition: color 0.3s ease; /* Smooth transition */
 }
 
-.more-about-me-link:hover .custom-link-button,
-.more-about-me-link:hover .right-icon {
+.more-about-me-link:hover .custom-link-button, .more-about-me-link:hover .right-icon {
   color: #09C09B; /* Hover color */
 }
 

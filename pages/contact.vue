@@ -2,24 +2,23 @@
     <div class="content-vh">
         <div class="content">
             <a-typography-title style="font-weight: bold; font-size: 40px;">
-                Nguyen Phuc Khang -
-                <span style="color: #09C09B;">{{ content.role}}</span>
+                Nguyen Phuc Khang - <span style="color: #09C09B;">{{ content.role}}</span>
             </a-typography-title>
             <a-typography-paragraph style="font-size: 16px; color: #71717a;">
                 Please feel free to reach out to me at using your preferred ways included below: 
             </a-typography-paragraph>
             
-            <a :href="'tel:+84' + content.phone">
-                <a-button type="text">
-                    <PhoneOutlined :style="{ color: '#09C09B' }"/> 0913324868
+            <a :href="'tel:+84' + content.phone" class="social-link">
+                <a-button type="link" class="custom-link-button" :style="{ color: 'black' }">
+                    <PhoneOutlined class="right-icon"/> 0913324868
                 </a-button>
             </a>
 
             <br />
                 
-            <a :href="'mailto:' + content.email">
-                <a-button type="text">
-                    <mail-outlined :style="{ color: '#09C09B' }"/> khang2073@gmail.com
+            <a :href="'mailto:' + content.email" class="social-link">
+                <a-button type="link" class="custom-link-button" :style="{ color: 'black' }">
+                    <mail-outlined class="right-icon"/> khang2073@gmail.com
                 </a-button>
             </a>
             <a-divider></a-divider>
@@ -66,9 +65,16 @@ useHead({
     width: 100%;
 }
 
-.social-link:hover .custom-link-button {
+.social-link:hover .custom-link-button, .social-link:hover .right-icon  {
   color: #09C09B !important; 
 }
+
+.right-icon {
+  color: black; /* Default color for icon */
+  transition: color 0.3s ease; /* Smooth transition */
+}
+
+
 
 /* lg */
 @media (min-width: 1024px) {
