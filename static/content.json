@@ -104,7 +104,7 @@
             "github": "https://www.github.com/JavaKhangNguyen/"
         },
         {
-            "title": "ACNE10",
+            "title": "Acnes Detection",
             "description": "An AI system for detecting 12 different types of acne lesions and differential diagnoses",
             "skills": ["ReactJS", "ZaloMiniApp", "Python", "FastAPI", "YOLO (PyTorch)"],
             "link": " https://zalo.me/s/3342509329674911346",
