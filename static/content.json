@@ -1,11 +1,11 @@
 {
     "meta": {
         "title": "Nguyen Phuc Khang",
-        "description": "I am a fresh graduate engineer from International University, and I created this portfolio to showcase my work and document my journey as I continue to grow in the IT industry. My passion lies in applying best practices and continually improving my skills. What excites me most about programming is the problem-solving aspect; I thrive on overcoming challenges, which not only enhances my experience but also deepens my understanding."
+        "description": "I am a fresh graduate from International University, and I created this portfolio to showcase my work and document my journey as I continue to grow in the IT industry. My passion lies in applying best practices and continually improving my skills. What excites me most about programming is the problem-solving aspect; I thrive on overcoming challenges, which not only enhances my experience but also deepens my understanding."
     },
 
     "name": "Nguyen Phuc Khang",
-    "description": "I am a fresh graduate engineer from International University, and I created this portfolio to showcase my work and document my journey as I continue to grow in the IT industry. My passion lies in applying best practices and continually improving my skills. What excites me most about programming is the problem-solving aspect; I thrive on overcoming challenges, which not only enhances my experience but also deepens my understanding.",
+    "description": "I am a fresh graduate from International University, and I created this portfolio to showcase my work and document my journey as I continue to grow in the IT industry. My passion lies in applying best practices and continually improving my skills. What excites me most about programming is the problem-solving aspect; I thrive on overcoming challenges, which not only enhances my experience but also deepens my understanding.",
     "role": "Full-stack developer",
     "about_description": "My core technology stack includes ReactJS, NodeJS, and MySQL. I am also familiar with TypeScript, Python, and VueJS. with a commitment to continuous learning and staying updated on emerging technologies. Currently, I am seeking a full-time position as a software developer. When I'm not coding, I enjoy gaming, driving, and exploring new areas of knowledge. At the moment, I am expanding my skill set by learning about QA/QC testing (Automation/Manual). Additionally, I have the capability to provide IT support service.",
     "index_image": "/img/CV.jpg",
@@ -94,6 +94,20 @@
             "description": "A website providing information for guests and presenters at BME10 International Conference hosted by the school of Biomedical Engineering at IU in July 2024.",
             "skills": ["ReactJS", "GoogleSheetsAPI"],
             "link": "https://bme10.aiotlab.io.vn",
+            "github": "https://www.github.com/JavaKhangNguyen/"
+        },
+        {
+            "title": "Plant Classification",
+            "description": "An AI system for classifying 1000+ different types of plants. Trained on 350k images",
+            "skills": ["Python", "YOLO (PyTorch)", "Streamlit"],
+            "link": "https://plant-classification.streamlit.app",
+            "github": "https://www.github.com/JavaKhangNguyen/"
+        },
+        {
+            "title": "Watermeter Reading",
+            "description": "An AI system using OCR technology to read water meter numbers and calculate the water consumption of a household.",
+            "skills": ["Python", "YOLO (PyTorch)", "Streamlit"],
+            "link": "https://ai4ia-watermeter.streamlit.app/",
             "github": "https://www.github.com/JavaKhangNguyen/"
         },
         {
