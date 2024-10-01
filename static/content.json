@@ -84,7 +84,7 @@
     ],
     "skills": {
         "proglang": ["JavaScript", "TypeScript", "Python", "Java"],
-        "libfw": ["ReactJS", "NuxtJS", "NodeJS", "TailwindCSS", "Bootstrap", "Flask", "FastAPI"],
+        "libfw": ["ReactJS", "NuxtJS", "NodeJS", "TailwindCSS", "Material UI", "Bootstrap", "Flask", "FastAPI"],
         "toolplat":  ["Git", "Github", "Netlify", "Postman"]
     },
     "projects": [
