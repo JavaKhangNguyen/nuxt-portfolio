@@ -104,7 +104,7 @@
             "github": "https://www.github.com/JavaKhangNguyen/"
         },
         {
-            "title": "Watermeter Reading",
+            "title": "Watermeter Reader",
             "description": "An AI system using OCR technology to read water meter numbers and calculate the water consumption of a household.",
             "skills": ["Python", "YOLO (PyTorch)", "Streamlit"],
             "link": "https://ai4ia-watermeter.streamlit.app/",
