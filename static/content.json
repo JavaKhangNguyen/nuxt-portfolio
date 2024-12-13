@@ -19,9 +19,15 @@
     ],
     "experience": [
         {
+            "image": "/img/DigiEx.jpg",
+            "organization": "DigiEx Group",
+            "subtitle": ["Front-end Developer (full-time)"],
+            "date": "12/2024- Present"
+        },
+        {
             "image": "/img/AI4IA.jpg",
             "organization": "AI4IA",
-            "subtitle": ["Freelancer"],
+            "subtitle": ["Front-end Developer (part-time)"],
             "date": "06/2023 - Present"
         },
         {
@@ -34,7 +40,7 @@
             "image": "/img/IU.png",
             "organization": "VNUHCM International University",
             "subtitle": ["IT Helpdesk Support"],
-            "date": "03/2021 - Present"
+            "date": "03/2021 - 11/2024"
         }
     ],
     "social_links": {
@@ -88,7 +94,13 @@
         "toolplat":  ["Git", "Github", "Vercel", "Postman", "MySQL"]
     },
     "projects": [
-        
+        {
+            "title": "IU Youth Union Student Plugin",
+            "description": "A website support student look up for extracurricular activities confirmation and certifications.",
+            "skills": ["ReactJS", "GoogleSheetsAPI", "MaterialUI", "WordPress"],
+            "link": "https://iuyouth.edu.vn/tra-cuu-hoat-dong",
+            "github": "https://www.github.com/JavaKhangNguyen/"
+        },
         {
             "title": "BME10 Web Application",
             "description": "A website providing information for guests and presenters at BME10 International Conference hosted by the school of Biomedical Engineering at IU in July 2024.",
